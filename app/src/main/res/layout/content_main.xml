@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.izx.watsontts.TranslateActivity"
+    tools:showIn="@layout/activity_translate">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/entryActionsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border">
+
+                <Spinner
+                    android:id="@+id/entryLanguageSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|start"
+                    android:minHeight="50dp"
+                    android:minWidth="240dp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/entrySpeechButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/speech_button_hint"
+                android:scaleType="fitCenter"
+                android:src="@drawable/suara" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/translationEntry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="top|start"
+            android:hint="@string/entry_text_hint"
+            android:scrollHorizontally="false" />
+
+        <LinearLayout
+            android:id="@+id/resultActionsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border">
+
+                <Spinner
+                    android:id="@+id/resultLanguageSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|start"
+                    android:minHeight="50dp"
+                    android:minWidth="240dp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/resultSpeechButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/speech_button_hint"
+                android:scaleType="fitCenter"
+                android:src="@drawable/suara" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/translationResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:focusable="false"
+            android:gravity="top|start"
+            android:hint="@string/result_text_hint"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+</ScrollView>

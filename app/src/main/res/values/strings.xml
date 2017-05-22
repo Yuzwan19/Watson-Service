@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Burger Recipe</string>
+    <string name="Burger_peanut_Recipe">
+
+    1 tablespoon vegetable oil, plus more for brushing \n
+    1 onion, finely chopped \n
+    2 tablespoons minced fresh ginger \n
+    2 garlic cloves, minced \n
+    1 cup tomato puree \n
+    2 tablespoons ketchup \n
+    1 tablespoon red wine vinegar \n
+    1 tablespoon Worcestershire sauce \n
+    1 1/2 tablespoons Dijon mustard \n
+    2 tablespoons honey \n
+    2 tablespoons molasses \n
+    3 tablespoons pure ancho chile powder \n
+    1 canned chipotle in adobo, minced \n
+    1/2 cup water \n
+    2 tablespoons creamy peanut butter \n
+    Salt and freshly ground pepper \n
+    4 hamburger buns, split \n
+    1 1/2 pounds ground beef chuck \n
+    1/2 cup shredded cheddar (3 ounces) \n
+    1 scallion, finely chopped \n
+    Lettuce and tomato slices, for serving \n
+
+    </string>
+
+    <string name="Burger_peanut_how">
+        In a medium saucepan, heat the 1 tablespoon of oil. \n
+        Add the onion and ginger and cook over moderate heat, stirring occasionally, until softened, about 5 minutes. \n
+        Add the garlic and cook for 1 minute, stirring. \n
+        Add the tomato puree, ketchup, vinegar, Worcestershire sauce, mustard, honey, molasses, ancho chile powder, chipotle and water. \n
+        Bring to a simmer and cook over low heat, stirring occasionally, until thickened, about 30 minutes. \n
+        Transfer the sauce to a blender. Add the peanut butter and puree until smooth. Season the barbecue sauce with salt and pepper. \n
+    </string>
+
+    <string name="umami_ing">
+    1 cup ruby port \n
+    2 pounds mixed ground beef brisket, skirt steak and sirloin steak (20 percent fat) \n
+    Salt and freshly ground pepper \n
+    1/2 cup Stilton cheese (3 ounces), softened \n
+    Umami dust, for sprinkling (optional, see Note) \n
+    4 brioche hamburger buns, buttered and toasted \n
+    </string>
+
+    <string name="umami_how">
+        In a small saucepan, cook the port over moderate heat until reduced to 2 tablespoons, about 15 minutes.
+        \n Heat a cast-iron griddle until very hot.
+        \n Form the meat into four 4-by-1-inch patties without packing too tightly.
+        \n Season generously with salt and pepper.
+        \n Arrange the patties on the griddle, cover with a roasting pan and cook over moderately high heat for 4 minutes,
+        \n until very crusty.
+        \n Flip the patties and cook, covered, for 2 minutes longer; top with the Stilton and cook uncovered for 1 minute.
+        \n Transfer the patties to a plate and sprinkle with the umami dust, let rest for 2 minutes and set on the buns.
+        \n Drizzle with the reduced port, top with the buns and serve.
+    </string>
+    
+    <string name="pug_burger_ing">
+
+    \n 2 pounds lean ground sirloin
+    \n 8 strips applewood-smoked bacon
+    \n 1/2 cup mayonnaise, plus more for serving
+    \n 1 garlic clove, minced
+    \n Kosher salt and freshly ground pepper
+    \n 4 kaiser rolls, split
+    \n 3 tablespoons extra-virgin olive oil
+    \n 3 ounces Danish blue cheese, sliced
+    \n Sliced ripe Hass avocado
+    \n Bibb lettuce leaves
+    \n Red onion slices
+
+    </string>
+
+    <string name="pug_burger_how">
+        \n Light a grill.
+        \n Form the meat into 4 large patties about 1 inch thick.
+        \n Let stand at room temperature for 30 minutes.
+        \n In a skillet, cook the bacon over moderate heat until crisp, 6 minutes; drain on paper towels.
+        \n In a bowl, mix the 1/2 cup of mayonnaise with the garlic; season with salt and pepper.
+        \n Brush the cut sides of the rolls with 2 tablespoons of the oil and lightly toast on the grill.
+        \n Brush the burgers with the remaining oil and season well with salt and pepper.
+        \n Grill over moderately high heat for 3 minutes; flip and top with the cheese.
+        \n Cook for 3 more minutes for medium-rare.
+        \n Spread the bottom roll halves with the garlic mayonnaise.
+        \n Top with a burger, bacon, avocado, lettuce and onion and serve.
+    </string>
+
+    <string name="entry_text_hint">Text to be translated</string>
+    <string name="result_text_hint">Translated text</string>
+    <string name="speech_button_hint">Text to Speech</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_close">Close Application</string>
+    <string name="error_title_default">Error in WatsonBahasa</string>
+    <string name="error_title_invalid_credentials_speech">Invalid Watson Speech Credentials</string>
+    <string name="error_title_invalid_credentials_translator">Invalid Watson Translator Credentials</string>
+    <string name="error_message_invalid_credentials_translator">Please verify your credentials in \"values/watson_credentials\" and rebuild the application.\n\nSee the README for further assistance.</string>
+    <string name="error_message_invalid_credentials_speech">Please verify your credentials in \"values/watson_credentials\" and rebuild the application or continue with no Text To Speech.\n\nSee the README for further assistance.</string>
+    <string name="error_title_bluemix_connection">Failed to Connect to Bluemix</string>
+    <string name="error_message_bluemix_connection">Please verify your connection to the internet.\n\nSee the README for further assistance.</string>
+
+
+</resources>
